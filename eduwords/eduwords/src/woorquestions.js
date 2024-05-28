@@ -145,7 +145,7 @@ const WoorQuestions = () => {
   const columns = divideIntoColumns(questions, 2);
 
   const handleBack = () => {
-    navigate(-1);
+    navigate(-2);
   };
 
   const handleGenerate = () => {
